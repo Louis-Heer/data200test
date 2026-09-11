@@ -19,6 +19,6 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 1 + 1
 ```
 
-[Real Page](real_page.qmd)
+[Real Page](real_page.html)
 
 [Nothing to see Here!](no_exist.qmd)
