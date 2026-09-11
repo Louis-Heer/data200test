@@ -3,9 +3,7 @@
   "result": {
     "engine": "knitr",
     "markdown": "---\ntitle: \"Real Page\"\naliases:\n  - test_page.qmd\n---\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n6 + 8 * 9\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 78\n```\n\n\n:::\n:::\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n5 - 4\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 1\n```\n\n\n:::\n:::\n\n\n",
-    "supporting": [
-      "real_page_files"
-    ],
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
