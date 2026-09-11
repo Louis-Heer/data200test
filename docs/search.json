@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data 200 Code",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\nReal Page\nNothing to see Here!\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "regressions.html",
+    "href": "regressions.html",
+    "title": "Regressions",
+    "section": "",
+    "text": "5 + 5 + 5\n\n[1] 15"
+  },
+  {
+    "objectID": "menu_stuff.html",
+    "href": "menu_stuff.html",
+    "title": "Menu Stuff",
+    "section": "",
+    "text": "6 / 6 / 6\n\n[1] 0.1666667"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "real_page.html",
+    "href": "real_page.html",
+    "title": "Real Page",
+    "section": "",
+    "text": "6 + 8 * 9\n\n[1] 78\n\n\n\n5 - 4\n\n[1] 1"
+  }
+]
