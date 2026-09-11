@@ -1,9 +1,11 @@
 {
-  "hash": "0cd9c7e3af31023299e2c2bc23da7ead",
+  "hash": "11726a4e03e4d76baebdc4bb21e85a20",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Real Page\"\naliases:\n  - test_page.qmd\n---\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n6 + 8 * 9\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 78\n```\n\n\n:::\n:::\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n5 - 4\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 1\n```\n\n\n:::\n:::\n\n\n",
-    "supporting": [],
+    "markdown": "---\ntitle: \"Real Page\"\n---\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n6 + 8 * 9\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 78\n```\n\n\n:::\n:::\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n5 - 4\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 1\n```\n\n\n:::\n:::\n\n\n",
+    "supporting": [
+      "real_page_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

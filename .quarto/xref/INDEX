@@ -19,5 +19,8 @@
   },
   "regressions.qmd": {
     "regressions.html": "d212913e"
+  },
+  "docs/test_page.qmd": {
+    "test_page.html": "79e57b7e"
   }
 }

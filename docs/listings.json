@@ -1,6 +1,11 @@
 [
   {
     "listing": "/index.html",
-    "items": []
+    "items": [
+      "/about.html",
+      "/menu_stuff.html",
+      "/real_page.html",
+      "/regressions.html"
+    ]
   }
 ]

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Data 200 Code",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\nReal Page\nNothing to see Here!\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\nReal Page\nNothing to see Here!\n\n\n\n\n\n\n\n\n\n\n\n\nAbout\n\n\n\n\n\n\n\n\n\n\nMenu Stuff\n\n\n\n\n\n\n\n\n\n\nReal Page\n\n\n\n\n\n\n\n\n\n\n\n\nRegressions\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "regressions.html",
@@ -33,5 +33,12 @@
     "title": "Real Page",
     "section": "",
     "text": "6 + 8 * 9\n\n[1] 78\n\n\n\n5 - 4\n\n[1] 1"
+  },
+  {
+    "objectID": "docs/test_page.html",
+    "href": "docs/test_page.html",
+    "title": "Data 200 Code",
+    "section": "",
+    "text": "Redirect"
   }
 ]
