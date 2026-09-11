@@ -1,0 +1,24 @@
+---
+title: "Data 200 Code"
+listing: 
+  type: grid
+  sort: false
+  image-placeholder: rstudio_logo.png
+  max-description-length: 175
+  fields: [image, date, title]
+  exclude: 
+    title: "Nothing's Here"
+date-modified: last-modified
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+```{r}
+1 + 1
+```
+
+[Real Page](test_page.qmd)
+
+[Nothing to see Here!](no_exist.qmd)

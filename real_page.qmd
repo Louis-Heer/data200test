@@ -1,0 +1,18 @@
+---
+title: "Real Page"
+aliases:
+  - test_page.qmd
+---
+
+
+
+
+```{r}
+6 + 8 * 9
+```
+
+
+```{r}
+5 - 4
+```
+

@@ -1,0 +1,15 @@
+{
+  "hash": "0015ee34280503d92b7feb0854465475",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Menu Stuff\"\nnavbar: false\n---\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n6 / 6 / 6\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 0.1666667\n```\n\n\n:::\n:::\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

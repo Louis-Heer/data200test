@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "Data 200 Code"
+  page-footer: 
+    left: Copyright 2026, Louis Heer
+  reader-mode: false
+  navbar:
+    logo: rstudio_logo.png
+    background: cyan
+    tools:
+      - icon: google
+        href: https://www.google.com/
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - real_page.qmd
+      - text: More
+        menu:
+          - menu_stuff.qmd
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+
+editor: visual
+

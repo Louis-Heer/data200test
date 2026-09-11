@@ -1,0 +1,12 @@
+---
+title: "Regressions"
+image: regression.png
+---
+
+
+
+
+```{r}
+5 + 5 + 5
+```
+
