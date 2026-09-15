@@ -5,7 +5,7 @@ project:
 website:
   title: "Data 200 Code"
   page-footer: 
-    left: Copyright 2026, Louis Heer
+    left: Designed in 2026 by Louis Heer
   reader-mode: false
   navbar:
     logo: rstudio_logo.png
