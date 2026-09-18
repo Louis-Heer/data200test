@@ -1,0 +1,18 @@
+---
+title: "ggplot"
+listing: 
+  type: grid
+  sort: false
+  image-placeholder: rstudio_logo.png
+  max-description-length: 175
+  fields: [image, date, title]
+  include: "Scatterplots"
+---
+
+
+
+
+
+
+
+
