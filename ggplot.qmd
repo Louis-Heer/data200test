@@ -6,7 +6,10 @@ listing:
   image-placeholder: rstudio_logo.png
   max-description-length: 175
   fields: [image, date, title]
-  include: "Scatterplots"
+  contents: [
+     "geom_point.qmd",
+     "regressions.qmd"
+     ]
 ---
 
 

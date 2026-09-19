@@ -22,5 +22,11 @@
   },
   "docs/test_page.qmd": {
     "test_page.html": "79e57b7e"
+  },
+  "geom_point.qmd": {
+    "geom_point.html": "8a2c9f8e"
+  },
+  "ggplot.qmd": {
+    "ggplot.html": "5f9af80f"
   }
 }

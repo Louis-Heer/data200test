@@ -3,6 +3,11 @@
     "index.qmd": [
       "B3049D40",
       "posts"
+    ],
+    "ggplot.qmd": [
+      "B3049D40",
+      "geom_point.qmd",
+      "regressions.qmd"
     ]
   }
 }

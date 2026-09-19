@@ -3,8 +3,16 @@
     "listing": "/index.html",
     "items": [
       "/about.html",
+      "/ggplot.html",
       "/menu_stuff.html",
       "/real_page.html",
+      "/regressions.html"
+    ]
+  },
+  {
+    "listing": "/ggplot.html",
+    "items": [
+      "/geom_point.html",
       "/regressions.html"
     ]
   }
