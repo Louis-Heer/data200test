@@ -1,5 +1,6 @@
 ---
 title: "Scatterplots"
+
 ---
 
 
@@ -14,11 +15,12 @@ A scatter plot can be used to plot two numeric variables
 
 ```{r}
 #| warning: false
+#| message: false
 ggplot(data = penguins, aes(x = bill_len, y = bill_dep)) +
   geom_point()
 ```
 
-You can add a color to represent one categorical variable
+You can add color to represent one categorical variable
 
 ```{r}
 #| warning: false

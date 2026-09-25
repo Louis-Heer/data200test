@@ -13,7 +13,8 @@
     "listing": "/ggplot.html",
     "items": [
       "/geom_point.html",
-      "/regressions.html"
+      "/regressions.html",
+      "/histograms.html"
     ]
   }
 ]

@@ -46,13 +46,20 @@
     "href": "ggplot.html",
     "title": "ggplot",
     "section": "",
-    "text": "Scatterplots\n\n\n\n\n\n\n\n\n\n\n\n\nRegressions\n\n\n\n\n\nNo matching items"
+    "text": "Scatterplots\n\n\n\n\n\n\n\n\n\n\n\n\nRegressions\n\n\n\n\n\n\n\n\n\n\nHistograms\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "geom_point.html",
     "href": "geom_point.html",
     "title": "Scatterplots",
     "section": "",
-    "text": "A scatter plot can be used to plot two numeric variables\n\nggplot(data = penguins, aes(x = bill_len, y = bill_dep)) +\n  geom_point()\n\nWarning: Removed 2 rows containing missing values or values outside the scale range\n(`geom_point()`).\n\n\n\n\n\n\n\n\n\nYou can add a color to represent one categorical variable\n\nggplot(data = penguins, aes(x = bill_len, y = bill_dep, color = species)) +\n  geom_point()\n\nWarning: Removed 2 rows containing missing values or values outside the scale range\n(`geom_point()`)."
+    "text": "A scatter plot can be used to plot two numeric variables\n\nggplot(data = penguins, aes(x = bill_len, y = bill_dep)) +\n  geom_point()\n\n\n\n\n\n\n\n\nYou can add a color to represent one categorical variable\n\nggplot(data = penguins, aes(x = bill_len, y = bill_dep, color = species)) +\n  geom_point()"
+  },
+  {
+    "objectID": "histograms.html",
+    "href": "histograms.html",
+    "title": "Histograms",
+    "section": "",
+    "text": "A histogram can be used to plot one numeric variable\n\nggplot(data = penguins, aes(x = flipper_len)) +\n  geom_histogram()\n\n\n\n\n\n\n\n\nYou can add color to represent one categorical variable\n\nggplot(data = penguins, aes(x = flipper_len, fill = species)) +\n  geom_histogram()\n\n\n\n\n\n\n\n\nCustomize the histogram by adding the ‘bins’ argument\n\nggplot(data = penguins, aes(x = flipper_len, fill = species)) +\n  geom_histogram(bins = 20)"
   }
 ]

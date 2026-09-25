@@ -1,0 +1,34 @@
+---
+title: "Histograms"
+---
+```{r}
+#| message: false
+#| warning: false
+#| include: false
+library(tidyverse)
+data("penguins")
+```
+A histogram can be used to plot one numeric variable
+
+```{r}
+#| warning: false
+#| message: false
+ggplot(data = penguins, aes(x = flipper_len)) +
+  geom_histogram()
+```
+
+You can add color to represent one categorical variable
+
+```{r}
+#| warning: false
+ggplot(data = penguins, aes(x = flipper_len, fill = species)) +
+  geom_histogram()
+```
+
+Customize the histogram by adding the 'bins' argument
+
+```{r}
+#| warning: false
+ggplot(data = penguins, aes(x = flipper_len, fill = species)) +
+  geom_histogram(bins = 20)
+```

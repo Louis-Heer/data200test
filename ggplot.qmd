@@ -8,7 +8,8 @@ listing:
   fields: [image, date, title]
   contents: [
      "geom_point.qmd",
-     "regressions.qmd"
+     "regressions.qmd",
+     "histograms.qmd"
      ]
 ---
 

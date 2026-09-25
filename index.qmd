@@ -7,7 +7,7 @@ listing:
   max-description-length: 175
   fields: [image, date, title]
   exclude: 
-    title: ["Nothing's Here", "Scatterplots"]
+    title: ["Nothing's Here", "Scatterplots", "Histograms"]
 date-modified: last-modified
 ---
 
