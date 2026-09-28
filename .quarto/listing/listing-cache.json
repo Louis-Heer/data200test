@@ -8,7 +8,9 @@
       "B3049D40",
       "geom_point.qmd",
       "regressions.qmd",
-      "histograms.qmd"
+      "histograms.qmd",
+      "bar_charts.qmd",
+      "box_plots.qmd"
     ]
   }
 }

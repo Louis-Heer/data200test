@@ -14,7 +14,9 @@
     "items": [
       "/geom_point.html",
       "/regressions.html",
-      "/histograms.html"
+      "/histograms.html",
+      "/bar_charts.html",
+      "/box_plots.html"
     ]
   }
 ]

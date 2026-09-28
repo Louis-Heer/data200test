@@ -1,0 +1,26 @@
+---
+title: "Bar Graphs"
+---
+```{r}
+#| include: false
+#| message: false
+#| warning: false
+library(tidyverse)
+data("penguins")
+```
+A bar graph can be used to represent the count of one categorical variable
+
+```{r}
+#| warning: false
+#| message: false
+ggplot(data = penguins, aes(x = island)) +
+  geom_bar()
+```
+
+You can add a fill to represent a second categorical variable
+
+```{r}
+#| warning: false
+ggplot(data = penguins, aes(x = island, fill = species)) +
+  geom_bar()
+```

@@ -31,5 +31,11 @@
   },
   "histograms.qmd": {
     "histograms.html": "9b29cd3e"
+  },
+  "bar_charts.qmd": {
+    "bar_charts.html": "fbbebb4e"
+  },
+  "box_plots.qmd": {
+    "box_plots.html": "b47d6411"
   }
 }

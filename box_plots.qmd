@@ -1,0 +1,27 @@
+---
+title: "Box Plots"
+---
+
+```{r}
+#| include: false
+#| message: false
+#| warning: false
+library(tidyverse)
+data("penguins")
+```
+A box plot can be used to show the distribution of one numeric variable
+
+```{r}
+#| warning: false
+#| message: false
+ggplot(data = penguins, aes(x = body_mass)) +
+  geom_boxplot()
+```
+
+To add a categorical variable, you can add it to the aes function
+
+```{r}
+#| warning: false
+ggplot(data = penguins, aes(x = body_mass, y = species)) +
+  geom_boxplot()
+```
