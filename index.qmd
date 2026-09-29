@@ -6,12 +6,27 @@ listing:
   image-placeholder: rstudio_logo.png
   max-description-length: 175
   fields: [image, date, title]
-  contents: "/*.qmd"
+  contents: ["/*.qmd"]
 date-modified: last-modified
 ---
+
+```{r}
+#| include: false
+#| message: false
+#| warning: false
+library(tidyverse)
+```
 
 This is my temporary description of the website, which will contain r code relevant to the Data 200 class
 
 [Real Page](real_page.html)
 
 [Nothing to see Here!](no_exist.qmd)
+
+Remember, you can use the '?' code in R to get some information about a function
+
+```{r}
+#| output: false
+?ggplot #example for getting help documentation about ggplot
+```
+

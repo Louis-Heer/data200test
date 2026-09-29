@@ -1,8 +1,6 @@
 ---
 title: "Scatterplots"
-
 ---
-
 
 ```{r}
 #| include: false
@@ -11,6 +9,10 @@ title: "Scatterplots"
 library(tidyverse)
 data("penguins")
 ```
+[Home](../index.qmd) > [ggplot](../ggplot.qmd) > Scatter Plots
+
+
+
 A scatter plot can be used to plot two numeric variables
 
 ```{r}
@@ -27,4 +29,3 @@ You can add color to represent one categorical variable
 ggplot(data = penguins, aes(x = bill_len, y = bill_dep, color = species)) +
   geom_point()
 ```
-

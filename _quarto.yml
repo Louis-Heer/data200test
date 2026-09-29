@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Data 200 Code"
+  bread-crumbs: true
   page-footer: 
     left: Designed in 2026 by Louis Heer
   reader-mode: false

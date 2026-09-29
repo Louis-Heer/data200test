@@ -9,6 +9,11 @@ title: "Box Plots"
 library(tidyverse)
 data("penguins")
 ```
+
+[Home](../index.qmd) > [ggplot](../ggplot.qmd) > Box Plots
+
+
+
 A box plot can be used to show the distribution of one numeric variable
 
 ```{r}

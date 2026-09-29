@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Data 200 Code",
     "section": "",
-    "text": "This is my temporary description of the website, which will contain r code relevant to the Data 200 class\nReal Page\nNothing to see Here!\n\n\n\n\n\n\n\n\n\n\n\n\nNothing’s Here\n\n\n\n\n\n\n\n\n\n\nAbout\n\n\n\n\n\n\n\n\n\n\nggplot\n\n\n\n\n\n\n\n\n\n\nMenu Stuff\n\n\n\n\n\n\n\n\n\n\nReal Page\n\n\n\n\n\n\n\n\n\n\n\n\nRegressions\n\n\n\n\n\nNo matching items"
+    "text": "This is my temporary description of the website, which will contain r code relevant to the Data 200 class\nReal Page\nNothing to see Here!\nRemember, you can use the ‘?’ to get some information about a function\n\n?ggplot #example for getting help documentation about ggplot\n\n\n\n\n\n\n\n\n\n\n\n\n\nNothing’s Here\n\n\n\n\n\n\n\n\n\n\nAbout\n\n\n\n\n\n\n\n\n\n\nggplot\n\n\n\n\n\n\n\n\n\n\nMenu Stuff\n\n\n\n\n\n\n\n\n\n\nReal Page\n\n\n\n\n\n\n\n\n\n\n\n\nRegressions\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "regressions.html",
@@ -81,27 +81,48 @@
     "href": "ggplot/geom_point.html",
     "title": "Scatterplots",
     "section": "",
-    "text": "A scatter plot can be used to plot two numeric variables\n\nggplot(data = penguins, aes(x = bill_len, y = bill_dep)) +\n  geom_point()\n\n\n\n\n\n\n\n\nYou can add color to represent one categorical variable\n\nggplot(data = penguins, aes(x = bill_len, y = bill_dep, color = species)) +\n  geom_point()"
+    "text": "Home &gt; ggplot &gt; Scatter Plots\nA scatter plot can be used to plot two numeric variables\n\nggplot(data = penguins, aes(x = bill_len, y = bill_dep)) +\n  geom_point()\n\n\n\n\n\n\n\n\nYou can add color to represent one categorical variable\n\nggplot(data = penguins, aes(x = bill_len, y = bill_dep, color = species)) +\n  geom_point()"
   },
   {
     "objectID": "ggplot/bar_charts.html",
     "href": "ggplot/bar_charts.html",
     "title": "Bar Graphs",
     "section": "",
-    "text": "A bar graph can be used to represent the count of one categorical variable\n\nggplot(data = penguins, aes(x = island)) +\n  geom_bar()\n\n\n\n\n\n\n\n\nYou can add a fill to represent a second categorical variable\n\nggplot(data = penguins, aes(x = island, fill = species)) +\n  geom_bar()"
+    "text": "Home &gt; ggplot &gt; Bar Graphs\nA bar graph can be used to represent the count of one categorical variable\n\nggplot(data = penguins, aes(x = island)) +\n  geom_bar()\n\n\n\n\n\n\n\n\nYou can add a fill to represent a second categorical variable\n\nggplot(data = penguins, aes(x = island, fill = species)) +\n  geom_bar()"
   },
   {
     "objectID": "ggplot/box_plots.html",
     "href": "ggplot/box_plots.html",
     "title": "Box Plots",
     "section": "",
-    "text": "A box plot can be used to show the distribution of one numeric variable\n\nggplot(data = penguins, aes(x = body_mass)) +\n  geom_boxplot()\n\n\n\n\n\n\n\n\nTo add a categorical variable, you can add it to the aes function\n\nggplot(data = penguins, aes(x = body_mass, y = species)) +\n  geom_boxplot()"
+    "text": "Home &gt; ggplot &gt; Box Plots\nA box plot can be used to show the distribution of one numeric variable\n\nggplot(data = penguins, aes(x = body_mass)) +\n  geom_boxplot()\n\n\n\n\n\n\n\n\nTo add a categorical variable, you can add it to the aes function\n\nggplot(data = penguins, aes(x = body_mass, y = species)) +\n  geom_boxplot()"
   },
   {
     "objectID": "ggplot/histograms.html",
     "href": "ggplot/histograms.html",
     "title": "Histograms",
     "section": "",
-    "text": "A histogram can be used to plot one numeric variable\n\nggplot(data = penguins, aes(x = flipper_len)) +\n  geom_histogram()\n\n\n\n\n\n\n\n\nYou can add color to represent one categorical variable\n\nggplot(data = penguins, aes(x = flipper_len, fill = species)) +\n  geom_histogram()\n\n\n\n\n\n\n\n\nCustomize the histogram by adding the ‘bins’ argument\n\nggplot(data = penguins, aes(x = flipper_len, fill = species)) +\n  geom_histogram(bins = 20)"
+    "text": "Home &gt; ggplot &gt; Histograms\nA histogram can be used to plot one numeric variable\n\nggplot(data = penguins, aes(x = flipper_len)) +\n  geom_histogram()\n\n\n\n\n\n\n\n\nYou can add color to represent one categorical variable\n\nggplot(data = penguins, aes(x = flipper_len, fill = species)) +\n  geom_histogram()\n\n\n\n\n\n\n\n\nCustomize the histogram by adding the ‘bins’ argument\n\nggplot(data = penguins, aes(x = flipper_len, fill = species)) +\n  geom_histogram(bins = 20)"
+  },
+  {
+    "objectID": "gglist/ggplot.html",
+    "href": "gglist/ggplot.html",
+    "title": "ggplot",
+    "section": "",
+    "text": "Bar Graphs\n\n\n\n\n\n\n\n\n\n\nBox Plots\n\n\n\n\n\n\n\n\n\n\nScatterplots\n\n\n\n\n\n\n\n\n\n\nHistograms\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "gglist/ggplot/box_plots.html",
+    "href": "gglist/ggplot/box_plots.html",
+    "title": "Box Plots",
+    "section": "",
+    "text": "A box plot can be used to show the distribution of one numeric variable\n\nggplot(data = penguins, aes(x = body_mass)) +\n  geom_boxplot()\n\n\n\n\n\n\n\n\nTo add a categorical variable, you can add it to the aes function\n\nggplot(data = penguins, aes(x = body_mass, y = species)) +\n  geom_boxplot()"
+  },
+  {
+    "objectID": "gglist/ggplot/bar_charts.html",
+    "href": "gglist/ggplot/bar_charts.html",
+    "title": "Bar Graphs",
+    "section": "",
+    "text": "A bar graph can be used to represent the count of one categorical variable\n\nggplot(data = penguins, aes(x = island)) +\n  geom_bar()\n\n\n\n\n\n\n\n\nYou can add a fill to represent a second categorical variable\n\nggplot(data = penguins, aes(x = island, fill = species)) +\n  geom_bar()"
   }
 ]

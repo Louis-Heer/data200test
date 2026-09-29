@@ -49,5 +49,14 @@
   },
   "ggplot/histograms.qmd": {
     "histograms.html": "9309fd0e"
+  },
+  "gglist/ggplot.qmd": {
+    "ggplot.html": "57c33bf4"
+  },
+  "gglist/ggplot/box_plots.qmd": {
+    "box_plots.html": "4b08c9e1"
+  },
+  "gglist/ggplot/bar_charts.qmd": {
+    "bar_charts.html": "2724b714"
   }
 }

@@ -10,7 +10,8 @@
       "Data 200 Code/*.qmd",
       "*.qmd",
       "*/",
-      "/*.qmd"
+      "/*.qmd",
+      "gglist/ggplot.qmd"
     ],
     "ggplot.qmd": [
       "B3049D40",
@@ -19,6 +20,9 @@
       "histograms.qmd",
       "bar_charts.qmd",
       "box_plots.qmd",
+      "ggplot/*.qmd"
+    ],
+    "gglist\\ggplot.qmd": [
       "ggplot/*.qmd"
     ]
   }

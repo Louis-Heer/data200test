@@ -1,6 +1,7 @@
 ---
 title: "Histograms"
 ---
+
 ```{r}
 #| message: false
 #| warning: false
@@ -8,6 +9,10 @@ title: "Histograms"
 library(tidyverse)
 data("penguins")
 ```
+[Home](../index.qmd) > [ggplot](../ggplot.qmd) > Histograms
+
+
+
 A histogram can be used to plot one numeric variable
 
 ```{r}

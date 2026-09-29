@@ -1,6 +1,7 @@
 ---
 title: "Bar Graphs"
 ---
+
 ```{r}
 #| include: false
 #| message: false
@@ -8,6 +9,9 @@ title: "Bar Graphs"
 library(tidyverse)
 data("penguins")
 ```
+
+[Home](../index.qmd) \> [ggplot](../ggplot.qmd) \> Bar Graphs
+
 A bar graph can be used to represent the count of one categorical variable
 
 ```{r}

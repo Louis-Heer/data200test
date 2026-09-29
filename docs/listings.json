@@ -18,5 +18,14 @@
       "/ggplot/geom_point.html",
       "/ggplot/histograms.html"
     ]
+  },
+  {
+    "listing": "/gglist/ggplot.html",
+    "items": [
+      "/gglist/ggplot/bar_charts.html",
+      "/gglist/ggplot/box_plots.html",
+      "/gglist/ggplot/geom_point.html",
+      "/gglist/ggplot/histograms.html"
+    ]
   }
 ]
