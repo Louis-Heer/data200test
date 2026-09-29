@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/404.html",
       "/about.html",
       "/ggplot.html",
       "/menu_stuff.html",
@@ -12,11 +13,10 @@
   {
     "listing": "/ggplot.html",
     "items": [
-      "/geom_point.html",
-      "/regressions.html",
-      "/histograms.html",
-      "/bar_charts.html",
-      "/box_plots.html"
+      "/ggplot/bar_charts.html",
+      "/ggplot/box_plots.html",
+      "/ggplot/geom_point.html",
+      "/ggplot/histograms.html"
     ]
   }
 ]

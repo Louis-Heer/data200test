@@ -6,18 +6,5 @@ listing:
   image-placeholder: rstudio_logo.png
   max-description-length: 175
   fields: [image, date, title]
-  contents: [
-     "geom_point.qmd",
-     "histograms.qmd",
-     "bar_charts.qmd",
-     "box_plots.qmd"
-     ]
+  contents: ["ggplot/*.qmd"]
 ---
-
-
-
-
-
-
-
-

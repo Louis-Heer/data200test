@@ -2,7 +2,15 @@
   "listingMap": {
     "index.qmd": [
       "B3049D40",
-      "posts"
+      "posts",
+      "!ggplot/*.qmd",
+      "ggplot/*.qmd",
+      "!ggplot*",
+      "ggplot*",
+      "Data 200 Code/*.qmd",
+      "*.qmd",
+      "*/",
+      "/*.qmd"
     ],
     "ggplot.qmd": [
       "B3049D40",
@@ -10,7 +18,8 @@
       "regressions.qmd",
       "histograms.qmd",
       "bar_charts.qmd",
-      "box_plots.qmd"
+      "box_plots.qmd",
+      "ggplot/*.qmd"
     ]
   }
 }

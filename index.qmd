@@ -6,8 +6,7 @@ listing:
   image-placeholder: rstudio_logo.png
   max-description-length: 175
   fields: [image, date, title]
-  exclude: 
-    title: ["Nothing's Here", "Scatterplots", "Histograms", "Bar Graphs", "Box Plots"]
+  contents: "/*.qmd"
 date-modified: last-modified
 ---
 

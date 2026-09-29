@@ -37,5 +37,17 @@
   },
   "box_plots.qmd": {
     "box_plots.html": "b47d6411"
+  },
+  "ggplot/bar_charts.qmd": {
+    "bar_charts.html": "47a601a3"
+  },
+  "ggplot/box_plots.qmd": {
+    "box_plots.html": "d0fa4ca3"
+  },
+  "ggplot/geom_point.qmd": {
+    "geom_point.html": "c85ae822"
+  },
+  "ggplot/histograms.qmd": {
+    "histograms.html": "9309fd0e"
   }
 }
