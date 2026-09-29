@@ -3,13 +3,12 @@ title: "Menu Stuff"
 navbar: false
 ---
 
-
-
 ```{r}
 6 / 6 / 6
 ```
 
 
 
+[Real Page](real_page.html)
 
-
+[Nothing to see Here!](no_exist.qmd)

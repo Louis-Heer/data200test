@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Data 200 Code",
     "section": "",
-    "text": "This is my temporary description of the website, which will contain r code relevant to the Data 200 class\nReal Page\nNothing to see Here!\nRemember, you can use the ‘?’ to get some information about a function\n\n?ggplot #example for getting help documentation about ggplot\n\n\n\n\n\n\n\n\n\n\n\n\n\nNothing’s Here\n\n\n\n\n\n\n\n\n\n\nAbout\n\n\n\n\n\n\n\n\n\n\nggplot\n\n\n\n\n\n\n\n\n\n\nMenu Stuff\n\n\n\n\n\n\n\n\n\n\nReal Page\n\n\n\n\n\n\n\n\n\n\n\n\nRegressions\n\n\n\n\n\nNo matching items"
+    "text": "This is my temporary description of the website, which will contain r code relevant to the Data 200 class\nAlways run your libraries each time you start working on a document, whether its the first time you’re opening it or if you’re reopening it\n\n#Example for if you're using the tidyverse and bayesrules packages\nlibrary(tidyverse)\nlibrary(bayesrules)\n\nRemember, you can use the ‘?’ code in R to get some information about a function\n\n?ggplot #Example for getting help documentation about ggplot\n\nWhich code would you like to use today?\n\n\n\n\n\n\n\n\n\n\n\n\nNothing’s Here\n\n\n\n\n\n\n\n\n\n\nAbout\n\n\n\n\n\n\n\n\n\n\nggplot\n\n\n\n\n\n\n\n\n\n\nMenu Stuff\n\n\n\n\n\n\n\n\n\n\nOperators\n\n\n\n\n\n\n\n\n\n\nReal Page\n\n\n\n\n\n\n\n\n\n\n\n\nRegressions\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "regressions.html",
@@ -18,7 +18,7 @@
     "href": "menu_stuff.html",
     "title": "Menu Stuff",
     "section": "",
-    "text": "6 / 6 / 6\n\n[1] 0.1666667"
+    "text": "6 / 6 / 6\n\n[1] 0.1666667\n\n\nReal Page\nNothing to see Here!"
   },
   {
     "objectID": "about.html",
@@ -124,5 +124,12 @@
     "title": "Bar Graphs",
     "section": "",
     "text": "A bar graph can be used to represent the count of one categorical variable\n\nggplot(data = penguins, aes(x = island)) +\n  geom_bar()\n\n\n\n\n\n\n\n\nYou can add a fill to represent a second categorical variable\n\nggplot(data = penguins, aes(x = island, fill = species)) +\n  geom_bar()"
+  },
+  {
+    "objectID": "operators.html",
+    "href": "operators.html",
+    "title": "Operators",
+    "section": "",
+    "text": "&lt;-\nAssignment Operator\n\n\n\n\n\nArithmetic\n\nRelational\n\n\n+\nAddition\n&lt;\nLess than\n\n\n-\nSubtraction\n&gt;\nGreater than\n\n\n*\nMultiplication\n==\nEquals\n\n\n/\nDivision\n&lt;=\nLess than or equal to\n\n\n^\nExponent\n&gt;=\nGreater than or equal to\n\n\n\n\n!=\ndoes not equal"
   }
 ]

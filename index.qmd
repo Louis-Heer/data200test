@@ -10,23 +10,22 @@ listing:
 date-modified: last-modified
 ---
 
-```{r}
-#| include: false
-#| message: false
-#| warning: false
-library(tidyverse)
-```
-
 This is my temporary description of the website, which will contain r code relevant to the Data 200 class
 
-[Real Page](real_page.html)
+Always run your libraries each time you start working on a document, whether its the first time you're opening it or if you're reopening it
 
-[Nothing to see Here!](no_exist.qmd)
+```{r}
+#| eval: false
+#Example for if you're using the tidyverse and bayesrules packages
+library(tidyverse)
+library(bayesrules)
+```
 
 Remember, you can use the '?' code in R to get some information about a function
 
 ```{r}
-#| output: false
-?ggplot #example for getting help documentation about ggplot
+#| eval: false
+?ggplot #Example for getting help documentation about ggplot
 ```
 
+Which code would you like to use today?

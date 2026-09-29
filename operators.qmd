@@ -1,0 +1,14 @@
+---
+title: "Operators"
+---
+
+|     |                     |     |                          |
+|:---:|---------------------|:---:|--------------------------|
+| \<- | Assignment Operator |     |                          |
+|     | Arithmetic          |     | Relational               |
+| \+  | Addition            | \<  | Less than                |
+| \-  | Subtraction         | \>  | Greater than             |
+| \*  | Multiplication      | ==  | Equals                   |
+|  /  | Division            | \<= | Less than or equal to    |
+| \^  | Exponent            | \>= | Greater than or equal to |
+|     |                     | !=  | does not equal           |

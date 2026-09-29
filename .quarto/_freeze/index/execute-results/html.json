@@ -1,8 +1,8 @@
 {
-  "hash": "a3a1e90ccdee11a18b4e510d2a885225",
+  "hash": "26c44ebe1c9a174a06c11315159ae9e6",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Data 200 Code\"\nlisting: \n  type: grid\n  sort: false\n  image-placeholder: rstudio_logo.png\n  max-description-length: 175\n  fields: [image, date, title]\n  contents: [\"/*.qmd\"]\ndate-modified: last-modified\n---\n\n\n\nThis is my temporary description of the website, which will contain r code relevant to the Data 200 class\n\n[Real Page](real_page.html)\n\n[Nothing to see Here!](no_exist.qmd)\n\nRemember, you can use the '?' to get some information about a function\n\n\n::: {.cell}\n\n```{.r .cell-code}\n?ggplot #example for getting help documentation about ggplot\n```\n:::\n\n\n",
+    "markdown": "---\ntitle: \"Data 200 Code\"\nlisting: \n  type: grid\n  sort: false\n  image-placeholder: rstudio_logo.png\n  max-description-length: 175\n  fields: [image, date, title]\n  contents: [\"/*.qmd\"]\ndate-modified: last-modified\n---\n\nThis is my temporary description of the website, which will contain r code relevant to the Data 200 class\n\nAlways run your libraries each time you start working on a document, whether its the first time you're opening it or if you're reopening it\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#Example for if you're using the tidyverse and bayesrules packages\nlibrary(tidyverse)\nlibrary(bayesrules)\n```\n:::\n\n\nRemember, you can use the '?' code in R to get some information about a function\n\n\n::: {.cell}\n\n```{.r .cell-code}\n?ggplot #Example for getting help documentation about ggplot\n```\n:::\n\n\nWhich code would you like to use today?\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
