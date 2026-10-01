@@ -130,6 +130,6 @@
     "href": "operators.html",
     "title": "Operators",
     "section": "",
-    "text": "&lt;-\nAssignment Operator\n\n\n\n\n\nArithmetic\n\nRelational\n\n\n+\nAddition\n&lt;\nLess than\n\n\n-\nSubtraction\n&gt;\nGreater than\n\n\n*\nMultiplication\n==\nEquals\n\n\n/\nDivision\n&lt;=\nLess than or equal to\n\n\n^\nExponent\n&gt;=\nGreater than or equal to\n\n\n\n\n!=\ndoes not equal"
+    "text": "Arithmetic\n\n\n\n\n+\nAddition\n\n\n-\nSubtraction\n\n\n*\nMultiplication\n\n\n/\nDivision\n\n\n^\nExponent\n\n\n\n\n\n\n\n\n\nRelational\n\n\n\n\n&gt;\nGreater Than\n\n\n&gt;=\nGreater Than or Equal to\n\n\n&lt;\nLess Than\n\n\n&lt;=\nLess Than or Equal to\n\n\n==\nEqual\n\n\n!=\nNot Equal\n\n\n\n\n\n\n\nCommon Operators"
   }
 ]
