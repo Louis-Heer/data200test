@@ -5,10 +5,12 @@
       "/404.html",
       "/about.html",
       "/ggplot.html",
+      "/inline_code.html",
       "/menu_stuff.html",
       "/operators.html",
       "/real_page.html",
-      "/regressions.html"
+      "/regressions.html",
+      "/vectors_dataframes.html"
     ]
   },
   {

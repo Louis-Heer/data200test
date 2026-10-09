@@ -1,0 +1,5 @@
+---
+title: "Inline Code"
+---
+
+Inline code is written between the ticks in ``r 1 + 1``   

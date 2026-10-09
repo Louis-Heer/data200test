@@ -1,0 +1,24 @@
+---
+title: "Viewing my Data"
+---
+```{r}
+#| include: false
+#| message: false
+#| warning: false
+library(tidyverse)
+data("penguins")
+```
+
+There are many different ways of viewing a data set
+```{r}
+data("penguins") #loading the penguins data set
+```
+\
+glimpse() shows all of the variables and their R variable type
+```{r}
+glimpse(penguins)
+```
+
+
+
+

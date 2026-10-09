@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Data 200 Code",
     "section": "",
-    "text": "This is my temporary description of the website, which will contain r code relevant to the Data 200 class\nAlways run your libraries each time you start working on a document, whether its the first time you’re opening it or if you’re reopening it\n\n#Example for if you're using the tidyverse and bayesrules packages\nlibrary(tidyverse)\nlibrary(bayesrules)\n\nRemember, you can use the ‘?’ code in R to get some information about a function\n\n?ggplot #Example for getting help documentation about ggplot\n\nWhich code would you like to use today?\n\n\n\n\n\n\n\n\n\n\n\n\nNothing’s Here\n\n\n\n\n\n\n\n\n\n\nAbout\n\n\n\n\n\n\n\n\n\n\nggplot\n\n\n\n\n\n\n\n\n\n\nMenu Stuff\n\n\n\n\n\n\n\n\n\n\nOperators\n\n\n\n\n\n\n\n\n\n\nReal Page\n\n\n\n\n\n\n\n\n\n\n\n\nRegressions\n\n\n\n\n\nNo matching items"
+    "text": "This is my temporary description of the website, which will contain r code relevant to the Data 200 class\nAlways run your libraries each time you start working on a document, whether its the first time you’re opening it or if you’re reopening it\n\n#Example for if you're using the tidyverse and bayesrules packages\nlibrary(tidyverse)\nlibrary(bayesrules)\n\nRemember, you can use the ‘?’ code in R to get some information about a function\n\n?ggplot #Example for getting help documentation about ggplot\n\nWhich code would you like to use today?\n\n\n\n\n\n\n\n\n\n\n\n\nNothing’s Here\n\n\n\n\n\n\n\n\n\n\nAbout\n\n\n\n\n\n\n\n\n\n\nggplot\n\n\n\n\n\n\n\n\n\n\nInline Code\n\n\n\n\n\n\n\n\n\n\nMenu Stuff\n\n\n\n\n\n\n\n\n\n\nOperators\n\n\n\n\n\n\n\n\n\n\nReal Page\n\n\n\n\n\n\n\n\n\n\n\n\nRegressions\n\n\n\n\n\n\n\n\n\n\nVectors and Data Frames\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "regressions.html",
@@ -130,6 +130,34 @@
     "href": "operators.html",
     "title": "Operators",
     "section": "",
-    "text": "Arithmetic\n\n\n\n\n+\nAddition\n\n\n-\nSubtraction\n\n\n*\nMultiplication\n\n\n/\nDivision\n\n\n^\nExponent\n\n\n\n\n\n\n\n\n\nRelational\n\n\n\n\n&gt;\nGreater Than\n\n\n&gt;=\nGreater Than or Equal to\n\n\n&lt;\nLess Than\n\n\n&lt;=\nLess Than or Equal to\n\n\n==\nEqual\n\n\n!=\nNot Equal\n\n\n\n\n\n\n\nCommon Operators"
+    "text": "Arithmetic\n\n\n\n\n+\nAddition\n\n\n-\nSubtraction\n\n\n*\nMultiplication\n\n\n/\nDivision\n\n\n^\nExponent\n\n\n\n\n\n\n\n\n\nRelational\n\n\n\n\n&gt;\nGreater Than\n\n\n&gt;=\nGreater Than or Equal to\n\n\n&lt;\nLess Than\n\n\n&lt;=\nLess Than or Equal to\n\n\n==\nEqual\n\n\n!=\nNot Equal"
+  },
+  {
+    "objectID": "operators.html#the-assignment-operator",
+    "href": "operators.html#the-assignment-operator",
+    "title": "Operators",
+    "section": "The Assignment Operator",
+    "text": "The Assignment Operator\nThis operator creates or edits objects in the R environment tab. These can store any information that R outputs\n\nglimpse(my_thing) #I can't see anything because there isn't anything called 'my_thing'\n\nError:\n! object 'my_thing' not found\n\n\n\nmy_thing &lt;- c(1, 3, 5, 7) #Storing the numbers 1, 3, 5, and 7 in an object called \"my_thing\"\n\nglimpse(my_thing) #Now, I can see my list of numbers\n\n num [1:4] 1 3 5 7"
+  },
+  {
+    "objectID": "inline_code.html",
+    "href": "inline_code.html",
+    "title": "Inline Code",
+    "section": "",
+    "text": "Inline code is written between the ticks in r 1 + 1"
+  },
+  {
+    "objectID": "operators.html#the-assignment-operator--",
+    "href": "operators.html#the-assignment-operator--",
+    "title": "Operators",
+    "section": "The Assignment Operator <-",
+    "text": "The Assignment Operator &lt;-\nThis operator creates or edits objects in the R environment tab. These can store any information that R outputs\n\nglimpse(my_thing) #I can't see anything because there isn't anything called 'my_thing'\n\nError:\n! object 'my_thing' not found\n\n\n\nmy_thing &lt;- c(1, 3, 5, 7) #Storing the numbers 1, 3, 5, and 7 in an object called \"my_thing\"\n\nglimpse(my_thing) #Now, I can see my list of numbers\n\n num [1:4] 1 3 5 7"
+  },
+  {
+    "objectID": "vectors_dataframes.html",
+    "href": "vectors_dataframes.html",
+    "title": "Vectors and Data Frames",
+    "section": "",
+    "text": "Home &gt; Vectors and Data Frames\nA vector can be created to store a list of anything\n\nc(23, 53, 28, 87)\n\n[1] 23 53 28 87\n\n\n\nc(\"red\", \"yellow\", \"blue\", \"green\")\n\n[1] \"red\"    \"yellow\" \"blue\"   \"green\" \n\n\n\nYou can save a vector the same way as anything else in R3\n\nsome_numbers &lt;- c(23, 53, 28, 87)\n\ncool_colors &lt;- c(\"red\", \"yellow\", \"blue\", \"green\")\n\n\nglimpse(cool_colors)\n\n chr [1:4] \"red\" \"yellow\" \"blue\" \"green\"\n\nglimpse(some_numbers)\n\n num [1:4] 23 53 28 87\n\n\n\nYou can create a table by combining two vectors with the data.frame() function\n\ndata.frame(cool_colors, some_numbers)\n\n  cool_colors some_numbers\n1         red           23\n2      yellow           53\n3        blue           28\n4       green           87\n\n\n\nYou can specify new names for the columns if you want\n\ndata.frame(color = cool_colors, number = some_numbers)\n\n   color number\n1    red     23\n2 yellow     53\n3   blue     28\n4  green     87\n\n\n\nYou can run functions on your vectors\n\nmean(some_numbers)\n\n[1] 47.75"
   }
 ]

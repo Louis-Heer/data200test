@@ -61,5 +61,11 @@
   },
   "operators.qmd": {
     "operators.html": "9eec5579"
+  },
+  "inline_code.qmd": {
+    "inline_code.html": "91066394"
+  },
+  "vectors_dataframes.qmd": {
+    "vectors_dataframes.html": "3292d313"
   }
 }

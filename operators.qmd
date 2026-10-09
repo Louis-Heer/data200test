@@ -1,6 +1,12 @@
 ---
 title: "Operators"
 ---
+```{r}
+#| include: false
+#| message: false
+#| warning: false
+library(tidyverse)
+```
 
 ::: {layout-ncol="2"}
 |     | Arithmetic     |
@@ -22,19 +28,20 @@ title: "Operators"
 
 :::
 
-## The Assignment Operator
+## The Assignment Operator <-
 
-This operator creates or edits objects in the R environment tab
+This operator creates or edits objects in the R environment tab. These can store any information that R outputs
 
 ```{r}
-
+#| error: true
+glimpse(my_thing) #I can't see anything because there isn't anything called 'my_thing'
 ```
 
 
 ```{r}
-my_thing <- c(1, 3, 5, 7) #storing the numbers 1, 3, 5, and 7 in an object called "my_thing"
+my_thing <- c(1, 3, 5, 7) #Storing the numbers 1, 3, 5, and 7 in an object called "my_thing"
 
-my_thing 
+glimpse(my_thing) #Now, I can see my list of numbers
 ```
 
 

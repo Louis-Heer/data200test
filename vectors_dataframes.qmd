@@ -1,0 +1,60 @@
+---
+title: "Vectors and Data Frames"
+---
+```{r}
+#| include: false
+#| message: false
+#| warning: false
+library(tidyverse)
+```
+
+[Home](../index.qmd) \> Vectors and Data Frames
+
+A vector can be created to store a list of anything
+
+```{r}
+c(23, 53, 28, 87)
+```
+```{r}
+c("red", "yellow", "blue", "green")
+```
+\
+You can save a vector the same way as anything else in R
+
+```{r}
+some_numbers <- c(23, 53, 28, 87)
+
+cool_colors <- c("red", "yellow", "blue", "green")
+```
+```{r}
+glimpse(cool_colors)
+
+glimpse(some_numbers)
+```
+\
+You can create a table by combining two vectors with the data.frame() function
+```{r}
+data.frame(cool_colors, some_numbers)
+```
+\
+You can specify new names for the columns if you want
+```{r}
+data.frame(color = cool_colors, number = some_numbers)
+```
+\
+You can run functions on your vectors
+```{r}
+mean(some_numbers)
+```
+
+
+
+
+
+
+
+
+
+
+
+
