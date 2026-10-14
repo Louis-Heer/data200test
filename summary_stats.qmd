@@ -1,0 +1,73 @@
+---
+title: "Summary Stats"
+---
+```{r}
+#| include: false
+#| message: false
+#| warning: false
+data("penguins")
+```
+
+```{r}
+#| message: false
+#| warning: false
+library(tidyverse)
+library(janitor)
+```
+
+## Categorical Variables
+
+To count each outcome in a categorical variable, you can simply use count
+
+```{r}
+count(penguins, sex) #Counts the number of times each outcome occurred
+```
+
+To get proportions as well as count, use the tabyl function
+
+```{r}
+tabyl(penguins, sex)
+```
+
+## Numeric Variables
+
+Most numeric summary stat functions are very intuitive
+
+```{r}
+#Examples for the bill depth variable in penguins
+#na.rm is added to each since they will not work if nas are included
+
+mean(penguins$bill_dep, na.rm = TRUE) #Gives the mean
+
+median(penguins$bill_dep, na.rm = TRUE) #Gives the median
+
+sd(penguins$bill_dep, na.rm = TRUE) #Gives the standard deviation
+ 
+var(penguins$bill_dep, na.rm = TRUE) #Gives the variance
+
+quantile(penguins$bill_dep, na.rm = TRUE) #Gives the min, Q1, Q2, Q3, and max
+```
+\
+
+To make computing multiple summary stats at once easier, you can use the summarize function
+
+```{r}
+summarize(
+  penguins,
+  mean(bill_dep, na.rm = TRUE),
+  median(bill_dep, na.rm = TRUE),
+  sd(bill_dep, na.rm = TRUE)
+  ) # Gives the mean, median, and standard deviation together
+```
+\
+Give the output better looking names by adding a name before each argument
+
+```{r}
+summarize(
+  penguins,
+  mean_depth = mean(bill_dep, na.rm = TRUE),
+  median_depth = median(bill_dep, na.rm = TRUE),
+  standard_deviation = sd(bill_dep, na.rm = TRUE)
+  ) #Gives the same numbers, but now has better names
+```
+

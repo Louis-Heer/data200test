@@ -21,6 +21,15 @@ library(tidyverse)
 library(bayesrules)
 ```
 
+If you get an error that says that the package can't be found, make sure they are installed
+
+```{r}
+#| eval: false
+#Example for installing tidyverse and bayesrules packages
+install.packages("tidyverse")
+install.packages("bayesrules")
+```
+
 Remember, you can use the '?' code in R to get some information about a function
 
 ```{r}

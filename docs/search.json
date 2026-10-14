@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Data 200 Code",
     "section": "",
-    "text": "This is my temporary description of the website, which will contain r code relevant to the Data 200 class\nAlways run your libraries each time you start working on a document, whether its the first time you’re opening it or if you’re reopening it\n\n#Example for if you're using the tidyverse and bayesrules packages\nlibrary(tidyverse)\nlibrary(bayesrules)\n\nRemember, you can use the ‘?’ code in R to get some information about a function\n\n?ggplot #Example for getting help documentation about ggplot\n\nWhich code would you like to use today?\n\n\n\n\n\n\n\n\n\n\n\n\nNothing’s Here\n\n\n\n\n\n\n\n\n\n\nAbout\n\n\n\n\n\n\n\n\n\n\nggplot\n\n\n\n\n\n\n\n\n\n\nInline Code\n\n\n\n\n\n\n\n\n\n\nMenu Stuff\n\n\n\n\n\n\n\n\n\n\nOperators\n\n\n\n\n\n\n\n\n\n\nReal Page\n\n\n\n\n\n\n\n\n\n\n\n\nRegressions\n\n\n\n\n\n\n\n\n\n\nVectors and Data Frames\n\n\n\n\n\nNo matching items"
+    "text": "This is my temporary description of the website, which will contain r code relevant to the Data 200 class\nAlways run your libraries each time you start working on a document, whether its the first time you’re opening it or if you’re reopening it\n\n#Example for if you're using the tidyverse and bayesrules packages\nlibrary(tidyverse)\nlibrary(bayesrules)\n\nIf you get an error that says that the package can’t be found, make sure they are installed\n\n#Example for installing tidyverse and bayesrules packages\ninstall.packages(\"tidyverse\")\ninstall.packages(\"bayesrules\")\n\nRemember, you can use the ‘?’ code in R to get some information about a function\n\n?ggplot #Example for getting help documentation about ggplot\n\nWhich code would you like to use today?\n\n\n\n\n\n\n\n\n\n\n\n\nNothing’s Here\n\n\n\n\n\n\n\n\n\n\nAbout\n\n\n\n\n\n\n\n\n\n\nggplot\n\n\n\n\n\n\n\n\n\n\nInline Code\n\n\n\n\n\n\n\n\n\n\nMenu Stuff\n\n\n\n\n\n\n\n\n\n\nOperators\n\n\n\n\n\n\n\n\n\n\nReal Page\n\n\n\n\n\n\n\n\n\n\n\n\nRegressions\n\n\n\n\n\n\n\n\n\n\nSummary Stats\n\n\n\n\n\n\n\n\n\n\nVectors and Data Frames\n\n\n\n\n\n\n\n\n\n\nLoading/Viewing my Data\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "regressions.html",
@@ -46,7 +46,7 @@
     "href": "ggplot.html",
     "title": "ggplot",
     "section": "",
-    "text": "Bar Graphs\n\n\n\n\n\n\n\n\n\n\nBox Plots\n\n\n\n\n\n\n\n\n\n\nScatterplots\n\n\n\n\n\n\n\n\n\n\nHistograms\n\n\n\n\n\nNo matching items"
+    "text": "Bar Plots\n\n\n\n\n\n\n\n\n\n\nBox Plots\n\n\n\n\n\n\n\n\n\n\nScatterplots\n\n\n\n\n\n\n\n\n\n\nHistograms\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "geom_point.html",
@@ -86,9 +86,9 @@
   {
     "objectID": "ggplot/bar_charts.html",
     "href": "ggplot/bar_charts.html",
-    "title": "Bar Graphs",
+    "title": "Bar Plots",
     "section": "",
-    "text": "Home &gt; ggplot &gt; Bar Graphs\nA bar graph can be used to represent the count of one categorical variable\n\nggplot(data = penguins, aes(x = island)) +\n  geom_bar()\n\n\n\n\n\n\n\n\nYou can add a fill to represent a second categorical variable\n\nggplot(data = penguins, aes(x = island, fill = species)) +\n  geom_bar()"
+    "text": "Home &gt; ggplot &gt; Bar Graphs"
   },
   {
     "objectID": "ggplot/box_plots.html",
@@ -158,6 +158,76 @@
     "href": "vectors_dataframes.html",
     "title": "Vectors and Data Frames",
     "section": "",
-    "text": "Home &gt; Vectors and Data Frames\nA vector can be created to store a list of anything\n\nc(23, 53, 28, 87)\n\n[1] 23 53 28 87\n\n\n\nc(\"red\", \"yellow\", \"blue\", \"green\")\n\n[1] \"red\"    \"yellow\" \"blue\"   \"green\" \n\n\n\nYou can save a vector the same way as anything else in R3\n\nsome_numbers &lt;- c(23, 53, 28, 87)\n\ncool_colors &lt;- c(\"red\", \"yellow\", \"blue\", \"green\")\n\n\nglimpse(cool_colors)\n\n chr [1:4] \"red\" \"yellow\" \"blue\" \"green\"\n\nglimpse(some_numbers)\n\n num [1:4] 23 53 28 87\n\n\n\nYou can create a table by combining two vectors with the data.frame() function\n\ndata.frame(cool_colors, some_numbers)\n\n  cool_colors some_numbers\n1         red           23\n2      yellow           53\n3        blue           28\n4       green           87\n\n\n\nYou can specify new names for the columns if you want\n\ndata.frame(color = cool_colors, number = some_numbers)\n\n   color number\n1    red     23\n2 yellow     53\n3   blue     28\n4  green     87\n\n\n\nYou can run functions on your vectors\n\nmean(some_numbers)\n\n[1] 47.75"
+    "text": "Home &gt; Vectors and Data Frames"
+  },
+  {
+    "objectID": "viewing_data.html",
+    "href": "viewing_data.html",
+    "title": "Loading/Viewing my Data",
+    "section": "",
+    "text": "There are many different ways of viewing a dataset\ndata(\"penguins\") #loading the penguins dataset that is included in R\nglimpse() shows all of the variables and their R variable type\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species     &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Ad…\n$ island      &lt;fct&gt; Torgersen, Torgersen, Torgersen, Torgersen, Torgersen, Tor…\n$ bill_len    &lt;dbl&gt; 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, 42.0, …\n$ bill_dep    &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, 20.2, …\n$ flipper_len &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186, 180,…\n$ body_mass   &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, 4250, …\n$ sex         &lt;fct&gt; male, female, female, NA, female, male, female, male, NA, …\n$ year        &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…\nhead() takes the top 6 rows from the dataset and displays it like a normal table, tail() does the same from the bottom\nhead(penguins)\n\n  species    island bill_len bill_dep flipper_len body_mass    sex year\n1  Adelie Torgersen     39.1     18.7         181      3750   male 2007\n2  Adelie Torgersen     39.5     17.4         186      3800 female 2007\n3  Adelie Torgersen     40.3     18.0         195      3250 female 2007\n4  Adelie Torgersen       NA       NA          NA        NA   &lt;NA&gt; 2007\n5  Adelie Torgersen     36.7     19.3         193      3450 female 2007\n6  Adelie Torgersen     39.3     20.6         190      3650   male 2007\nnrow() and ncol() will tell you how many rows and columns respectively are in the data\nnrow(penguins) #Returns the number of rows in the penguins data\n\n[1] 344\nncol(penguins) #Returns the number of columns\n\n[1] 8"
+  },
+  {
+    "objectID": "vectors_dataframes.html#vectors",
+    "href": "vectors_dataframes.html#vectors",
+    "title": "Vectors and Data Frames",
+    "section": "Vectors",
+    "text": "Vectors\nA vector can be created to store a list of anything\n\nc(23, 53, 28, 87)\n\n[1] 23 53 28 87\n\n\n\nc(\"red\", \"yellow\", \"blue\", \"green\")\n\n[1] \"red\"    \"yellow\" \"blue\"   \"green\" \n\n\n\nYou can save a vector the same way as anything else in R\n\nsome_numbers &lt;- c(23, 53, 28, 87)\n\ncool_colors &lt;- c(\"red\", \"yellow\", \"blue\", \"green\")\n\n\nglimpse(cool_colors)\n\n chr [1:4] \"red\" \"yellow\" \"blue\" \"green\"\n\nglimpse(some_numbers)\n\n num [1:4] 23 53 28 87\n\n\n\nYou can run functions on your saved vectors\n\nmean(some_numbers)\n\n[1] 47.75"
+  },
+  {
+    "objectID": "vectors_dataframes.html#data-frames",
+    "href": "vectors_dataframes.html#data-frames",
+    "title": "Vectors and Data Frames",
+    "section": "Data Frames",
+    "text": "Data Frames\nYou can create a table by combining two vectors with the data.frame() function\n\ndata.frame(cool_colors, some_numbers)\n\n  cool_colors some_numbers\n1         red           23\n2      yellow           53\n3        blue           28\n4       green           87\n\n\n\nYou can specify new names for the columns if you want\n\ndata.frame(color = cool_colors, number = some_numbers)\n\n   color number\n1    red     23\n2 yellow     53\n3   blue     28\n4  green     87"
+  },
+  {
+    "objectID": "viewing_data.html#reading-in-data",
+    "href": "viewing_data.html#reading-in-data",
+    "title": "Loading/Viewing my Data",
+    "section": "Reading in Data",
+    "text": "Reading in Data\nTo read in data from a file, your code depends on what kind of file it is\nYou can use read_csv() to load .csv files\n\nread_csv(\"mydataset.csv\") #Example for reading in a csv file called mydataset"
+  },
+  {
+    "objectID": "summary_stats.html",
+    "href": "summary_stats.html",
+    "title": "Summary Stats",
+    "section": "",
+    "text": "library(tidyverse)\nlibrary(janitor)"
+  },
+  {
+    "objectID": "summary_stats.html#categorical-variables",
+    "href": "summary_stats.html#categorical-variables",
+    "title": "Summary Stats",
+    "section": "Categorical Variables",
+    "text": "Categorical Variables\nTo count each outcome in a categorical variable, you can simply use count\n\ncount(penguins, sex) #Counts the number of times each outcome occurred\n\n     sex   n\n1 female 165\n2   male 168\n3   &lt;NA&gt;  11\n\n\nTo get proportions as well as count, use the tabyl function\n\ntabyl(penguins, sex)\n\n    sex   n    percent valid_percent\n female 165 0.47965116     0.4954955\n   male 168 0.48837209     0.5045045\n   &lt;NA&gt;  11 0.03197674            NA"
+  },
+  {
+    "objectID": "summary_stats.html#numeric-variables",
+    "href": "summary_stats.html#numeric-variables",
+    "title": "Summary Stats",
+    "section": "Numeric Variables",
+    "text": "Numeric Variables\nMost numeric summary stat functions are very intuitive\n\n#Examples for the bill depth variable in penguins\n#na.rm is added to each since they will not work if nas are included\n\nmean(penguins$bill_dep, na.rm = TRUE) #Gives the mean\n\n[1] 17.15117\n\nmedian(penguins$bill_dep, na.rm = TRUE) #Gives the median\n\n[1] 17.3\n\nsd(penguins$bill_dep, na.rm = TRUE) #Gives the standard deviation\n\n[1] 1.974793\n\nvar(penguins$bill_dep, na.rm = TRUE) #Gives the variance\n\n[1] 3.899808\n\nquantile(penguins$bill_dep, na.rm = TRUE) #Gives the min, Q1, Q2, Q3, and max\n\n  0%  25%  50%  75% 100% \n13.1 15.6 17.3 18.7 21.5 \n\n\n\n\nTo make computing multiple summary stats at once easier, you can use the summarize function\n\nsummarize(\n  penguins,\n  mean(bill_dep, na.rm = TRUE),\n  median(bill_dep, na.rm = TRUE),\n  sd(bill_dep, na.rm = TRUE)\n  ) # Gives the mean, median, and standard deviation together\n\n  mean(bill_dep, na.rm = TRUE) median(bill_dep, na.rm = TRUE)\n1                     17.15117                           17.3\n  sd(bill_dep, na.rm = TRUE)\n1                   1.974793\n\n\n\nGive the output better looking names by adding a name before each argument\n\nsummarize(\n  penguins,\n  mean_depth = mean(bill_dep, na.rm = TRUE),\n  median_depth = median(bill_dep, na.rm = TRUE),\n  standard_deviation = sd(bill_dep, na.rm = TRUE)\n  ) #Gives the same numbers, but now has better names\n\n  mean_depth median_depth standard_deviation\n1   17.15117         17.3           1.974793"
+  },
+  {
+    "objectID": "ggplot/bar_charts.html#normal-bar-plot",
+    "href": "ggplot/bar_charts.html#normal-bar-plot",
+    "title": "Bar Plots",
+    "section": "Normal Bar Plot",
+    "text": "Normal Bar Plot\nA bar plot can be used to represent the count of one categorical variable\n\nggplot(data = penguins, aes(x = island)) +\n  geom_bar()\n\n\n\n\n\n\n\n\nYou can add a fill to represent a second categorical variable\n\nggplot(data = penguins, aes(x = island, fill = species)) +\n  geom_bar()"
+  },
+  {
+    "objectID": "ggplot/bar_charts.html#dodged-bar-plot",
+    "href": "ggplot/bar_charts.html#dodged-bar-plot",
+    "title": "Bar Plots",
+    "section": "Dodged Bar Plot",
+    "text": "Dodged Bar Plot\nA dodged Bar Plot can be used to represent two categorical variables\n\nggplot(data = penguins, aes(x = island, fill = species)) +\n  geom_bar(position = \"dodge\")"
+  },
+  {
+    "objectID": "ggplot/bar_charts.html#standardized-bar-plot",
+    "href": "ggplot/bar_charts.html#standardized-bar-plot",
+    "title": "Bar Plots",
+    "section": "Standardized Bar Plot",
+    "text": "Standardized Bar Plot\nA standardized bar plot can be used to represent two categorical variables, but it shows only the proportions of the fill variable within the x variable\n\nggplot(data = penguins, aes(x = island, fill = species)) +\n  geom_bar(position = \"fill\")"
   }
 ]

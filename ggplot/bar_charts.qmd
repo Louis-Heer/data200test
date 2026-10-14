@@ -1,5 +1,5 @@
 ---
-title: "Bar Graphs"
+title: "Bar Plots"
 ---
 
 ```{r}
@@ -12,7 +12,9 @@ data("penguins")
 
 [Home](../index.qmd) \> [ggplot](../ggplot.qmd) \> Bar Graphs
 
-A bar graph can be used to represent the count of one categorical variable
+## Normal Bar Plot
+
+A bar plot can be used to represent the count of one categorical variable
 
 ```{r}
 #| warning: false
@@ -28,3 +30,26 @@ You can add a fill to represent a second categorical variable
 ggplot(data = penguins, aes(x = island, fill = species)) +
   geom_bar()
 ```
+
+## Dodged Bar Plot
+
+A dodged Bar Plot can be used to represent two categorical variables
+
+```{r}
+#| warning: false
+ggplot(data = penguins, aes(x = island, fill = species)) +
+  geom_bar(position = "dodge")
+```
+
+## Standardized Bar Plot
+
+A standardized bar plot can be used to represent two categorical variables, but it shows only the proportions of the fill variable within the x variable
+
+```{r}
+#| warning: false
+ggplot(data = penguins, aes(x = island, fill = species)) +
+  geom_bar(position = "fill")
+```
+
+
+

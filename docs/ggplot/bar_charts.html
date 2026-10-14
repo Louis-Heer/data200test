@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Bar Graphs – Data 200 Code</title>
+<title>Bar Plots – Data 200 Code</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -336,8 +336,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#normal-bar-plot" id="toc-normal-bar-plot" class="nav-link active" data-scroll-target="#normal-bar-plot">Normal Bar Plot</a></li>
+  <li><a href="#dodged-bar-plot" id="toc-dodged-bar-plot" class="nav-link" data-scroll-target="#dodged-bar-plot">Dodged Bar Plot</a></li>
+  <li><a href="#standardized-bar-plot" id="toc-standardized-bar-plot" class="nav-link" data-scroll-target="#standardized-bar-plot">Standardized Bar Plot</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -345,7 +353,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Bar Graphs</h1>
+<h1 class="title">Bar Plots</h1>
 </div>
 
 
@@ -363,7 +371,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <p><a href="../index.html">Home</a> &gt; <a href="../ggplot.html">ggplot</a> &gt; Bar Graphs</p>
-<p>A bar graph can be used to represent the count of one categorical variable</p>
+<section id="normal-bar-plot" class="level2">
+<h2 class="anchored" data-anchor-id="normal-bar-plot">Normal Bar Plot</h2>
+<p>A bar plot can be used to represent the count of one categorical variable</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> penguins, <span class="fu">aes</span>(<span class="at">x =</span> island)) <span class="sc">+</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
@@ -387,8 +397,39 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
+</section>
+<section id="dodged-bar-plot" class="level2">
+<h2 class="anchored" data-anchor-id="dodged-bar-plot">Dodged Bar Plot</h2>
+<p>A dodged Bar Plot can be used to represent two categorical variables</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> penguins, <span class="fu">aes</span>(<span class="at">x =</span> island, <span class="at">fill =</span> species)) <span class="sc">+</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">position =</span> <span class="st">"dodge"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="bar_charts_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="standardized-bar-plot" class="level2">
+<h2 class="anchored" data-anchor-id="standardized-bar-plot">Standardized Bar Plot</h2>
+<p>A standardized bar plot can be used to represent two categorical variables, but it shows only the proportions of the fill variable within the x variable</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> penguins, <span class="fu">aes</span>(<span class="at">x =</span> island, <span class="at">fill =</span> species)) <span class="sc">+</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">position =</span> <span class="st">"fill"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="bar_charts_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

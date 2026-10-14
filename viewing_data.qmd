@@ -1,23 +1,56 @@
 ---
-title: "Viewing my Data"
+title: "Loading/Viewing my Data"
 ---
 ```{r}
 #| include: false
 #| message: false
 #| warning: false
 library(tidyverse)
-data("penguins")
 ```
 
-There are many different ways of viewing a data set
+There are many different ways of viewing a dataset 
+
 ```{r}
-data("penguins") #loading the penguins data set
+data("penguins") #loading the penguins dataset that is included in R
 ```
-\
+
 glimpse() shows all of the variables and their R variable type
+
 ```{r}
 glimpse(penguins)
 ```
+\
+head() takes the top 6 rows from the dataset and displays it like a normal table, tail() does the same from the bottom
+
+```{r}
+head(penguins)
+```
+\
+
+nrow() and ncol() will tell you how many rows and columns respectively are in the data
+
+```{r}
+nrow(penguins) #Returns the number of rows in the penguins data
+```
+
+```{r}
+ncol(penguins) #Returns the number of columns
+```
+
+\
+
+## Reading in Data
+
+To read in data from a file, your code depends on what kind of file it is
+
+You can use read_csv() to load .csv files
+
+```{r}
+#| eval: false
+read_csv("mydataset.csv") #Example for reading in a csv file called mydataset
+``` 
+
+
 
 
 

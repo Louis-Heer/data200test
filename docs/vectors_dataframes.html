@@ -336,8 +336,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#vectors" id="toc-vectors" class="nav-link active" data-scroll-target="#vectors">Vectors</a></li>
+  <li><a href="#data-frames" id="toc-data-frames" class="nav-link" data-scroll-target="#data-frames">Data Frames</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -362,7 +369,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p><a href="../index.qmd">Home</a> &gt; Vectors and Data Frames</p>
+<p><a href="./index.html">Home</a> &gt; Vectors and Data Frames</p>
+<section id="vectors" class="level2">
+<h2 class="anchored" data-anchor-id="vectors">Vectors</h2>
 <p>A vector can be created to store a list of anything</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">c</span>(<span class="dv">23</span>, <span class="dv">53</span>, <span class="dv">28</span>, <span class="dv">87</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
@@ -377,7 +386,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p><br>
-You can save a vector the same way as anything else in R3</p>
+You can save a vector the same way as anything else in R</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>some_numbers <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">23</span>, <span class="dv">53</span>, <span class="dv">28</span>, <span class="dv">87</span>)</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -394,9 +403,19 @@ You can save a vector the same way as anything else in R3</p>
 </div>
 </div>
 <p><br>
-You can create a table by combining two vectors with the data.frame() function</p>
+You can run functions on your saved vectors</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data.frame</span>(cool_colors, some_numbers)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(some_numbers)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 47.75</code></pre>
+</div>
+</div>
+</section>
+<section id="data-frames" class="level2">
+<h2 class="anchored" data-anchor-id="data-frames">Data Frames</h2>
+<p>You can create a table by combining two vectors with the data.frame() function</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data.frame</span>(cool_colors, some_numbers)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>  cool_colors some_numbers
 1         red           23
@@ -408,7 +427,7 @@ You can create a table by combining two vectors with the data.frame() function</
 <p><br>
 You can specify new names for the columns if you want</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data.frame</span>(<span class="at">color =</span> cool_colors, <span class="at">number =</span> some_numbers)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data.frame</span>(<span class="at">color =</span> cool_colors, <span class="at">number =</span> some_numbers)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   color number
 1    red     23
@@ -417,16 +436,9 @@ You can specify new names for the columns if you want</p>
 4  green     87</code></pre>
 </div>
 </div>
-<p><br>
-You can run functions on your vectors</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(some_numbers)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 47.75</code></pre>
-</div>
-</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

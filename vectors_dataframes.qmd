@@ -8,7 +8,9 @@ title: "Vectors and Data Frames"
 library(tidyverse)
 ```
 
-[Home](../index.qmd) \> Vectors and Data Frames
+[Home](/index.qmd) \> Vectors and Data Frames
+
+## Vectors
 
 A vector can be created to store a list of anything
 
@@ -32,6 +34,13 @@ glimpse(cool_colors)
 glimpse(some_numbers)
 ```
 \
+You can run functions on your saved vectors
+```{r}
+mean(some_numbers)
+```
+
+## Data Frames
+
 You can create a table by combining two vectors with the data.frame() function
 ```{r}
 data.frame(cool_colors, some_numbers)
@@ -41,11 +50,7 @@ You can specify new names for the columns if you want
 ```{r}
 data.frame(color = cool_colors, number = some_numbers)
 ```
-\
-You can run functions on your vectors
-```{r}
-mean(some_numbers)
-```
+
 
 
 

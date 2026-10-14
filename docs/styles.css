@@ -1,1 +1,13 @@
 /* css styles */
+.cell-output {
+background-color: #f0f0f0;
+padding: 10px;
+border-radius: 25px;
+margin-top: 5px;
+}
+
+.cell-output pre {
+background-color: transparent;
+border: none;
+margin: 0;
+}
